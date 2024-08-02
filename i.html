@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecoom website</title>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="black">
+
+<body>
+
+<section id="header">
+<a href="#"><img src="C:\Users\hp\Desktop\IMAGESP\logo.png" class="logo" style="width:80%" alt=""></a>
+
+<div>
+
+<ul id="navbar">
+<li><a href="index.html">HOME</a></li> 
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="form.html">CONTACT</a></li>
+<li><a href="cart.html">CART</a></li>
+<li><a href="shop.html">CUSTOMER REVIEW</a></li>
+<li><a href="process.html">PROCESS</a></li>  
+</div></section>
+
+
+<section id="hero">
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <img src="back1.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 2</div>
+    <img src="back2.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+
+
+</section>
+
+
+<section id="feature" class="section-p1">
+<div class="fe-box">
+<img src="C:\Users\hp\Desktop\IMAGESP\p1.webp" alt="">
+<h3><a href="C:\Users\hp\Desktop\IMAGESP\ke.html">Kitchen Equipments</h3>
+</div>
+
+<div class="fe-box">
+<img src="C:\Users\hp\Desktop\IMAGESP\p2.jpg" alt="">
+<h3><a href="C:\Users\hp\Desktop\IMAGESP\dc.html">Display counter</h3>
+</div>
+
+<div class="fe-box">
+<img src="C:\Users\hp\Desktop\IMAGESP\p3.webp" alt="">
+<h3><a href="C:\Users\hp\Desktop\IMAGESP\bp.html">Buffet & Party Counter</h3>
+</div>
+
+<div class="fe-box">
+<img src="C:\Users\hp\Desktop\IMAGESP\p4.jpg" alt="">
+<h3><a href="C:\Users\hp\Desktop\IMAGESP\ref.html">Refrigeration</h3>
+</div>
+
+
+<div class="fe-box">
+<img src="C:\Users\hp\Desktop\IMAGESP\p5.png" alt="">
+<h3><a href="C:\Users\hp\Desktop\IMAGESP\tr.html">Trolleys & Racks</h3>
+</div>
+
+
+<div class="fe-box">
+<img src="C:\Users\hp\Desktop\IMAGESP\p6.jpg" alt="">
+<h3><a href="C:\Users\hp\Desktop\IMAGESP\dw.html">Dish Washing</h3>
+</div>
+
+<div class="fe-box">
+<img src="C:\Users\hp\Desktop\IMAGESP\p7.jpg" alt="">
+<h3><a href="C:\Users\hp\Desktop\IMAGESP\m.html">Miscellaneous</h3>
+</div>
+
+<div class="fe-box">
+<img src="C:\Users\hp\Desktop\IMAGESP\p8.jpg" alt="">
+<h3><a href="C:\Users\hp\Desktop\IMAGESP\gn.html">GN Pan</h3>
+</div>
+
+
+</section>
+
+<footer class="section-p1">
+<div class="col">
+<p>We serve you kitchen equipments with good quality at reasonable prices.</p>
+<style>
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-instagram {
+  background: pink;
+  color: black;
+}
+
+</style>
+</head>
+</body>
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+<p><strong>
+<p><strong>
+<p><strong>
+</footer>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<script src="j.js"></script>
+</body>
+</html>
