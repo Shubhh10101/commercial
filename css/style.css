@@ -215,8 +215,8 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url('C:\Users\hp\Desktop\Images\back1.png');
-    height: auto;
+   
+    height: 200px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -1078,3 +1078,25 @@ textarea#comment.update_mail::placeholder {
 .margin_top90 {
     margin-top: 90px;
 }
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    background-color: transparent;
+  }
+
+
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }

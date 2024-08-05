@@ -28,10 +28,18 @@
    </head>
    <body>
 
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+         <button class="w3-bar-item w3-button w3-large"
+         onclick="w3_close()">Close &times;</button>
+         <a href="#" class="w3-bar-item w3-button">Link 1</a>
+         <a href="#" class="w3-bar-item w3-button">Link 2</a>
+         <a href="#" class="w3-bar-item w3-button">Link 3</a>
+       </div>
+
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="../commercial/Images/logo.png"></a>
+               <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -73,8 +81,8 @@
                         <div class="row">
                            <div class="col-md-12">
                               <div class="banner_taital_main">
-                                 <h1 class="banner_taital">Commercial <br>Kitchen <br> Equipement</h1>
-                                 <p class="banner_text">more-or-less normal distribution of letters, as opposed to using </p>
+                                 <h1 class="banner_taital">
+                                    <img src="Images/back1.jpg" width="100%">
                                  <div class="btn_main">
                                     <div class="about_bt active"><a href="/about.html">About Us</a></div>
                                     <div class="callnow_bt"><a href="/contact.html">Call Now</a></div>
@@ -82,6 +90,10 @@
                               </div>
                            </div>
                         </div>
+                        <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
                      </div>
 
 
@@ -93,11 +105,10 @@
                         <div class="row">
                            <div class="col-md-12">
                               <div class="banner_taital_main">
-                                 <h1 class="banner_taital">Coffee <br>Shop</h1>
-                                 <p class="banner_text">more-or-less normal distribution of letters, as opposed to using </p>
+                                 <h1 class="banner_taital"><br></h1>
+                                 <img src="Images/BACK2.jpg" width="100%">
                                  <div class="btn_main">
-                                    <div class="about_bt active"><a href="#">About Us</a></div>
-                                    <div class="callnow_bt"><a href="#">Call Now</a></div>
+                                 
                                  </div>
                               </div>
                            </div>
@@ -108,13 +119,16 @@
 
 
                   <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
-                  <button class="btn" style="border-left:1px solid navy">
-                     <i class="down arrow"></i>
+                  <button class="btn">
+                     <i class="arrow left"></i>
                    </button>
                  
                   </a>
                   <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
-                  <i class="fa fa-arrow-right"></i>
+                     <button class="btn">
+                        <i class="arrow right"></i>
+                      </button>
+                    
                   </a>
                </div>
             </div>
@@ -130,9 +144,9 @@
                   <div class="col-md-6"> 
                      <div class="about_taital_box">
                         <h1 class="about_taital">About Our shop</h1>
-                        <h1 class="about_taital_1">Coffee distribution '</h1>
-                        <p class=" about_text">has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editorhas a more-or-less normal distribution of letters, as oppos</p>
-                        <div class="readmore_btn"><a href="#">Read More</a></div>
+                        <h1 class="about_taital_1"></h1>
+                        <p class=" about_text">Kitchen  Equipment is a leading Manufacturer and Supplier of Commercial Kitchen Equipment in India since 2017.During this journey of three decades company has grown multi-fold and has executed several prestigious commercial kitchen projects in many sectors like Hotels, Corporate institutions, Milk dairies, College and Hospitals Canteens, etc.Every tasteful cuisine is fine art of an expert Chef, and every expert Chef is delighted to work with handy, convenient cooking equipments. And we have delightfully taken this cause head on to provide a vast range of cooking equipments that are manufactured keeping in mind every minute detail that a commercial operation looks out for.</p>
+                        <div class="readmore_btn"><a href="about.html">Read More</a></div>
                      </div>
                   </div>
                   <div class="col-md-6"> 
@@ -148,7 +162,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h1 class="coffee_taital">OUR Coffee OFFER</h1>
+                  <h1 class="coffee_taital">Products</h1>
                </div>
             </div>
          </div>
@@ -159,27 +173,24 @@
                      <div class="container-fluid">
                         <div class="row">
                            <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-1.png"></div>
+                              <div class="coffee_img"><img src="../commercial/Images/p1.webp"></div>
                               <div class="coffee_box">
-                                 <h3 class="types_text">TYPES OF COFFEE</h3>
-                                 <p class="looking_text">looking at its layout. The point of</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
+                                 <h3 class="types_text"><a href="../commercial/pages/ke.html"></a>KITCHEN EQUIPMENTS</h3>
+                                 </div>
                               </div>
                            </div>
                            <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-2.png"></div>
+                              <div class="coffee_img"><img src="../commercial/Images/p2.jpg"></div>
                               <div class="coffee_box">
-                                 <h3 class="types_text">BEAN VARIETIES</h3>
-                                 <p class="looking_text">looking at its layout. The point of</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
+                                 <h3 class="types_text"><a href="../commercial/pages/dc.html"></a>DISPLAY COUNTERS</h3>
+                                 </div>
                               </div>
                            </div>
                            <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-3.png"></div>
+                              <div class="coffee_img"><img src="../commercial/Images/p3.webp"></div>
                               <div class="coffee_box">
-                                 <h3 class="types_text">COFFEE & PASTRY</h3>
-                                 <p class="looking_text">looking at its layout. The point of</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
+                                 <h3 class="types_text"><a href="../commercial/pages/bp.html"></a>BUFFET AND PARTY COUNTER</h3>
+                                 </div>
                               </div>
                            </div>
                            <div class="col-lg-3 col-md-6">
@@ -471,5 +482,31 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+
+
+
+      <div class="w3-container">
+         <p>In this example, the sidebar is hidden (style="display:none")</p>
+         <p>It is shown when you click on the menu icon in the top left corner.</p>
+         <p>When it is opened, it shifts the page content to the right.</p>
+         <p>We use JavaScript to add a 25% left margin to the div element with id="main" when this happens. The value "25%" matches the width of the sidebar.</p>
+         </div>
+         
+         </div>
+         
+         <script>
+         function w3_open()
+          {
+           document.getElementById("main").style.marginLeft = "25%";
+           document.getElementById("mySidebar").style.width = "25%";
+           document.getElementById("mySidebar").style.display = "block";
+           document.getElementById("openNav").style.display = 'none';
+         }
+         function w3_close() {
+           document.getElementById("main").style.marginLeft = "0%";
+           document.getElementById("mySidebar").style.display = "none";
+           document.getElementById("openNav").style.display = "inline-block";
+         }
+         </script>
    </body>
 </html>
