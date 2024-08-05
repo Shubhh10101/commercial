@@ -513,12 +513,12 @@ button {
 
 .coffee_section {
     width: 100%;
-    float: left;
+    float: center;
 }
 
 .coffee_taital {
     width: 100%;
-    float: left;
+    float: center;
     font-size: 40px;
     color: black;
     text-transform: uppercase;
@@ -532,7 +532,7 @@ button {
     margin: 0 auto;
     text-align: center;
     padding-top: 40px;
-    display: flex;
+    
 align-items: center ;
 justify-content: space-between;
 flex-wrap: wrap;
