@@ -1,54 +1,84 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ecoom website</title>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="tr.css">
-<style>
-body
-{
-background-image: url("back5.webp");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 1400px;
-height: 100vh;
-width: 100%;
-position: sticky-down;
-}
-</style>
-<body bgcolor="black">
-</head>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Commercial Kitchen Equipments</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="/css/bootstrap-grid.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="/css/tr.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="/css/responsive.css">
+      <!-- font css -->
+      <link href="fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="/css/font-awesome.min.css">
+   </head>
+   <body>
+    <body bgcolor="black">
 
-</head>
-<section id="header">
-<a href="#"><img src="C:\Users\hp\Desktop\IMAGESP\logo.png" class="logo"alt=""></a>
-<div>
-<ul id="navbar">
-<li><a href="index.html">HOME</a></li> 
-<li><a href="about.html">ABOUT</a></li>
-<li><a href="contact.html">CONTACT</a></li>
-<li><a href="cart.html">CART</a></li>
-<li><a href="shop.html">CUSTOMER REVIEW</a></li>
-<li><a href="process.html">PROCESS</a></li>  
-</div></section>
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+         <button class="w3-bar-item w3-button w3-large"
+         onclick="w3_close()">Close &times;</button>
+         <a href="/about.html" class="w3-bar-item w3-button">Home</a>
+         <a href="#" class="w3-bar-item w3-button">Link 2</a>
+         <a href="#" class="w3-bar-item w3-button">Link 3</a>
+       </div>
 
-<body>
-
-<section id="hero" class= "section-p1">
-<img src= "C:\Users\hp\Desktop\back8.jpg" width=800 height=380>
-</section>
+      <div class="header_section">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand" href="/index.html"><img src="/Images/logo.png"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/coffees.html">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/blog.html">Cart</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Customer Review</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/i.html">Process</a>
+                     </li>
+                  </ul>
+                     </div>
+                  </form>
+               </div>
+            </nav>
+         </div>
+         <h2><center>TROLLEYS AND RACK</h2>
 
 
 <section id="feature" class= "section-p1">
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr1.png" alt="">
+<img src="/Images/tr1.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr1.html">PLATFORM TROLLEY</h4>
+<h4><a href="/pages/tr1.html">PLATFORM TROLLEY</h4>
 </div>
 </div>
 </div>
@@ -56,9 +86,9 @@ position: sticky-down;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr2.png" alt="">
+<img src="/Images/tr2.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr2.html">BUSING CART</h4>
+<h4><a href="/pages/tr2.html">BUSING CART</h4>
 </div>
 </div>
 </div>
@@ -66,9 +96,9 @@ position: sticky-down;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr3.png" alt="">
+<img src="/Images/tr3.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr3.html">SOIL DISH TROLLEY</h4>
+<h4><a href="/pages/tr3.html">SOIL DISH TROLLEY</h4>
 </div>
 </div>
 </div>
@@ -76,9 +106,9 @@ position: sticky-down;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr4.png" alt="">
+<img src="/Images/tr4.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr4.html">MASALA TROLLEY</h4>
+<h4><a href="/pages/tr4.html">MASALA TROLLEY</h4>
 </div>
 </div>
 </div>
@@ -86,9 +116,9 @@ position: sticky-down;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr5.png" alt="">
+<img src="/Images/tr5.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr5.html">MULTIFUNCTION KITCHEN TROLLEY</h4>
+<h4><a href="/pages/tr5.html">MULTIFUNCTION KITCHEN TROLLEY</h4>
 </div>
 </div>
 </div>
@@ -96,21 +126,9 @@ position: sticky-down;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr6.png" alt="">
+<img src="/Images/tr6.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr6.html">SPICE KITCHEN RACK</h4>
-</div>
-</div>
-</div>
-</div>
-
-
-
-<div class="fe-box">
-<div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr9.png" alt="">
-<div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr7.html">POT RACK WIDE</h4>
+<h4><a href="/pages/tr6.html">SPICE KITCHEN RACK</h4>
 </div>
 </div>
 </div>
@@ -120,9 +138,21 @@ position: sticky-down;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr12.png" alt="">
+<img src="/Images/tr9.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr8.html">WORK TABLE</h4>
+<h4><a href="/pages/tr7.html">POT RACK WIDE</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="fe-box">
+<div class="pro">
+<img src="/Images/tr12.png" alt="">
+<div class="des">
+<h4><a href="/pages/tr8.html">WORK TABLE</h4>
 </div>
 </div>
 </div>
@@ -130,9 +160,9 @@ position: sticky-down;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr13.png" alt="">
+<img src="/Images/tr13.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr9.html">WORK TABLE WITH UNDER SHELF'S</h4>
+<h4><a href="/pages/tr9.html">WORK TABLE WITH UNDER SHELF'S</h4>
 </div>
 </div>
 </div>
@@ -140,9 +170,9 @@ position: sticky-down;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\tr14.png" alt="">
+<img src="/Images/tr14.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\tr10.html">WALL SHELFS</h4>
+<h4><a href="/pages/tr10.html">WALL SHELFS</h4>
 </div>
 </div>
 </div>

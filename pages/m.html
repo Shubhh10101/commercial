@@ -1,56 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ecoom website</title>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="m.css">
-<style>
-body
-{
-background-image: url("back5.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 1400px;
-height: 100vh;
-width: 100%;
-}
-</style>
-<body bgcolor="black">
-</head>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Commercial Kitchen Equipments</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="/css/bootstrap-grid.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="/css/m.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="/css/responsive.css">
+      <!-- font css -->
+      <link href="fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="/css/font-awesome.min.css">
+   </head>
+   <body>
+    <body bgcolor="black">
 
-</head>
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+         <button class="w3-bar-item w3-button w3-large"
+         onclick="w3_close()">Close &times;</button>
+         <a href="/about.html" class="w3-bar-item w3-button">Home</a>
+         <a href="#" class="w3-bar-item w3-button">Link 2</a>
+         <a href="#" class="w3-bar-item w3-button">Link 3</a>
+       </div>
 
-<section id="header">
-<a href="#"><img src="C:\Users\hp\Desktop\IMAGESP\logo.png" class="logo"alt=""></a>
-<div>
-<ul id="navbar">
-<li><a href="index.html">HOME</a></li> 
-<li><a href="about.html">ABOUT</a></li>
-<li><a href="contact.html">CONTACT</a></li>
-<li><a href="cart.html">CART</a></li>
-<li><a href="shop.html">CUSTOMER REVIEW</a></li>
-<li><a href="process.html">PROCESS</a></li>  
-</div></section>
-
-<body>
-
-</section>
-
-<section id="hero">
-<img src= "C:\Users\hp\Desktop\back10.jpg" width=800 height=380>
-</section>
+      <div class="header_section">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand" href="/index.html"><img src="/Images/logo.png"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/coffees.html">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/blog.html">Cart</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Customer Review</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/i.html">Process</a>
+                     </li>
+                  </ul>
+                     </div>
+                  </form>
+               </div>
+            </nav>
+         </div>
+         <h2><center>MISCELLANEOUS</h2>
 
 
 <section id="feature" class="section-p1">
 <div class="fe-box">
 
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m1.png" alt="">
+<img src="/Images/m1.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m1.html">BAR BE QUE GRILL</h4>
+<h4><a href="/pages/m1.html">BAR BE QUE GRILL</h4>
 </div>
 </div>
 </div>
@@ -58,20 +87,9 @@ width: 100%;
 
 <div class="fe-box">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m2.png" alt="">
+<img src="/Images/m2.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m2.html">CONVEYOR TOASTER</h4>
-</div>
-</div>
-</div>
-</div>
-
-<div class="fe-box">
-<div class="pro-container">
-<div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m3.png" alt="">
-<div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m3.html">ELECTRIC TANDOOR</h4>
+<h4><a href="/pages/m2.html">CONVEYOR TOASTER</h4>
 </div>
 </div>
 </div>
@@ -80,21 +98,20 @@ width: 100%;
 <div class="fe-box">
 <div class="pro-container">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m4.png" alt="">
+<img src="/Images/m3.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m4.html">SLIDING HOT CASE</h4>
+<h4><a href="/pages/m3.html">ELECTRIC TANDOOR</h4>
 </div>
 </div>
 </div>
 </div>
-
 
 <div class="fe-box">
 <div class="pro-container">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m5.png" alt="">
+<img src="/Images/m4.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m5.html">COFFEE DISPENSORS</h4>
+<h4><a href="/pages/m4.html">SLIDING HOT CASE</h4>
 </div>
 </div>
 </div>
@@ -104,31 +121,9 @@ width: 100%;
 <div class="fe-box">
 <div class="pro-container">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m6.png" alt="">
+<img src="/Images/m5.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m6.html">HOT CASE JUMBO DOOR</h4>
-</div>
-</div>
-</div>
-</div>
-
-<div class="fe-box">
-<div class="pro-container">
-<div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m7.png" alt="">
-<div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m7.html">BREAD SLICER</h4>
-</div>
-</div>
-</div>
-</div>
-
-<div class="fe-box">
-<div class="pro-container">
-<div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m8.png" alt="">
-<div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m8.html">SANDWICH GRILLER</h4>
+<h4><a href="/pages/m5.html">COFFEE DISPENSORS</h4>
 </div>
 </div>
 </div>
@@ -138,9 +133,9 @@ width: 100%;
 <div class="fe-box">
 <div class="pro-container">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m11.png" alt="">
+<img src="/Images/m6.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m9.html">JUICE DISPENSER</h4>
+<h4><a href="/pages/m6.html">HOT CASE JUMBO DOOR</h4>
 </div>
 </div>
 </div>
@@ -149,9 +144,43 @@ width: 100%;
 <div class="fe-box">
 <div class="pro-container">
 <div class="pro">
-<img src="C:\Users\hp\Desktop\IMAGESP\m12.png" alt="">
+<img src="/Images/m7.png" alt="">
 <div class="des">
-<h4><a href="C:\Users\hp\Desktop\IMAGESP\m10.html">INSECT KILLER</h4>
+<h4><a href="/pages/m7.html">BREAD SLICER</h4>
+</div>
+</div>
+</div>
+</div>
+
+<div class="fe-box">
+<div class="pro-container">
+<div class="pro">
+<img src="/Images/m8.png" alt="">
+<div class="des">
+<h4><a href="/pages/m8.html">SANDWICH GRILLER</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="fe-box">
+<div class="pro-container">
+<div class="pro">
+<img src="/Images/m11.png" alt="">
+<div class="des">
+<h4><a href="/pages/m9.html">JUICE DISPENSER</h4>
+</div>
+</div>
+</div>
+</div>
+
+<div class="fe-box">
+<div class="pro-container">
+<div class="pro">
+<img src="/Images/m12.png" alt="">
+<div class="des">
+<h4><a href="/pages/m10.html">INSECT KILLER</h4>
 </div>
 </div>
 </div>

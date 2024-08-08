@@ -15,11 +15,13 @@ font-size: 46px;
 line-height: 54px;
 color: white;
 }
+
 h3
 {
 font-size: 22px;
 color: white;
 }
+
 h4{
 font-size: 20px;
 color: white;
@@ -41,11 +43,9 @@ margin: 40px 0;
 }
 body
 {
-background-image: "back12.jpg";
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100% 100%;
-}
+
+background-image: "C:\Users\hp\Desktop\back12.jpg";
+
 #header
 
 {
@@ -105,53 +105,51 @@ left: 20px;
 
 #prodetails
 {
-display: flex;
+
 margin-top: 20px;
 }
 
 
 #prodetails .single-pro-image
 {
-padding: 100px;
-width: 30%;
-margin-right: 70px;
+padding-top: 20px;
+width: 120%;
+padding-right: 30px;
 }
 
 .small-img-group
 {
-display: flex;
-justify-content: space-between;
+
 }
 
 .small-img-column
 {
-flex-basis: 14%;
+flex-basis: 70%;
 cursor: pointer;
 }
 
 #prodetails .single-pro-details
 {
-width: 50%;
+width: 100%;
 padding-top: 30px;
 }
 
 #prodetails .single-pro-details h4
 {
-padding-top:60px;
-padding-left:100px;
+font-size: 15px;
 }
 
 #prodetails .single-pro-details h2
 {
-font-size:26px;
+font-size:22px;
 }
 
-#prodetails .single-pro-details input
+#prodetails .single-pro-details button
 {
-width: 35px;
+width: 125px;
 height: 37px;
-padding-left: 0px;
-padding-top: 0px;
+padding-left: 10px;
+padding-bottom:5px;
 font-size: 16px;
 margin-right: 10px;
 }
@@ -161,70 +159,28 @@ margin-right: 10px;
 outline: none;
 }
 
-#prodetails .single-pro-details button
+#prodetails .single-pro-details h3
 {
-background: white;
-color: black;
-font-size: 16px;
+background: teal;
+color: white;
+font-size: 20px;
+padding-top: 10px;
 
 }
+
 
 #prodetails .table, th, td {
-border: 2px solid orangered;
-color: white;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 500px;
-  height: 200px;
-  border: 1px solid Black;
-  perspective: 1000px; 
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-
-.flip-card-front {
-  background-color: pink;
-  color: black;
-}
-
-
-.flip-card-back {
-  background-color: blue;
+  border: 1px solid orangered;
   color: white;
-  transform: rotateY(180deg);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  
+
 }
 
-.btn {
-  background-color: white;
-  color: black;
-  padding: 16px;
-  font-size: 16px;
-  border: 10px;
-  outline: black;
-}
+
 
 
 .dropdown {
@@ -272,3 +228,142 @@ color: white;
   -webkit-transform: rotate(45deg);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box !important;
+  transition: ease all 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(250, 241, 241);
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+a {
+  color: rgb(245, 241, 241);
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  font-weight: normal;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: normal;
+  color: rgb(252, 249, 249);
+  margin: 0
+}
+
+h1 {
+  font-size: 24px
+}
+
+h2 {
+  font-size: 22px
+}
+
+h3 {
+  font-size: 18px
+}
+
+h4 {
+  font-size: 16px
+}
+
+h5 {
+  font-size: 14px
+}
+
+h6 {
+  font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: rgb(248, 241, 241);
+  text-decoration: none!important;
+  opacity: 1
+}
+
+button:focus {
+  outline: none;
+}
+
+ul,
+li,
+ol {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+p {
+  margin: 20px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+a {
+  color: rgb(241, 238, 238);
+  text-decoration: none;
+  outline: none !important;
+}
+
+a,
+.btn {
+  text-decoration: none !important;
+  outline: none !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
