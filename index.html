@@ -17,6 +17,7 @@
       <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
       <!-- style css -->
       <link rel="stylesheet" type="text/css" href="./css/style.css">
+      <link rel="stylesheet" href="/css/flaticon.css" />
       <!-- Responsive-->
       <link rel="stylesheet" href="./css/responsive.css">
       <!-- font css -->
@@ -53,13 +54,25 @@
                         <a class="nav-link" href="/about.html">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="/coffees.html">Contact</a>
-                     </li>
+                        <div class="dropdown">
+                           <button class="dropbtn">Products</button>
+                           <div class="dropdown-content">
+                             <a href="/pages/ke.html">Kitchen equipments</a>
+                             <a href="/pages/dc.html">Display counters</a>
+                             <a href="/pages/bp.html">Buffet and Party counters</a>
+                             <a href="/pages/ref.html">Refrigerators</a>
+                             <a href="/pages/tr.html">Trolleys and Racks</a>
+                             <a href="/pages/dw.html">Dish Washing</a>
+                             <a href="/pages/m.html">Miscellaneous</a>
+                             <a href="/pages/gn.html">Gn PANS</a>
+                           </div>
+                         </div>
+                         </li>
                      <li class="nav-item">
                         <a class="nav-link" href="/blog.html">Cart</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Customer Review</a>
+                        <a class="nav-link" href="/contact.html">Contact</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="/i.html">Process</a>
@@ -427,18 +440,22 @@
                </div>
             </div>
          </div>
+         <form name="submit-to-google-sheet">
          <div class="container-fluid">
             <div class="contact_section_2">
                <div class="row">
                   <div class="col-md-12">
+            
                      <div class="mail_section_1">
-                        <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
-                        <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
-                        <input type="text" class="mail_text" placeholder="Your Phone" name="Your Phone">
-                        <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
-                        <div class="send_bt"><a href="#">Send</a></div>
+                        <input type="text"  placeholder="name"  name=" name" required>
+                        <input type="text"  placeholder="email"  name=" email" required>
+                        <input type="text"  placeholder="phone"  name=" Phone" required>
+                        <textarea class="massage-bt" placeholder="message" rows="5" id="comment" name="message" required></textarea>
+                        <input type="Submit" name="submit">
+                        <span id=""success"></span>
                      </div>
                   </div>
+               </form>
                   <div class="map_main">
                      <div class="map-responsive">
                         <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="250" height="500" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
@@ -506,6 +523,25 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+
+
+      
+       
+       <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbyYoS05D1PDKr4Pf1thIMV9SfNDWWzFnAUj7LOeAQYUXJdt8_R2Tkrar5gHlqOWTL3sfQ/exec'
+         const form = document.forms['submit-to-google-sheet']
+       const success = document.getElementById('success');
+         form.addEventListener('Submit', e => {
+           e.preventDefault()
+           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+             .then(response => 
+             {
+               success.innerHTML="Data successfully submit";
+            })
+             .catch(error => console.error('Error!', error.message))
+         })
+         </script>
+       
 
 
 
