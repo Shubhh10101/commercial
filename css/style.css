@@ -240,7 +240,7 @@ button {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 30px 20px 10px 20px;
+    padding: 20px;
     font-size: 17px;
     color: #f7f1f1;
     text-transform: uppercase;
@@ -513,7 +513,7 @@ button {
 
 .coffee_section {
     width: 100%;
-    float: left;
+    float: right;
 }
 
 .coffee_taital {
@@ -553,7 +553,7 @@ button {
     width: 100%;
     float: left;
     font-size: 22px;
-    color: #e91111;
+    color: #eb3720;
     text-align: center;
     font-weight: bold;
 }
@@ -679,13 +679,19 @@ button {
     top: 190px;
     right: -50px;
     color: #fefefd;
-    background-color: #dc8977;
+    background-color: #da3b17;
 }
 
 #custom_slider a.carousel-control-next {
-    right: -50px;
+    right: 100px;
     top: 130px;
+    
+}
 
+#custom_slider a.carousel-control-previous {
+    left: -10px;
+    top: 100px;
+    
 }
 
 #custom_slider .carousel-control-next,
@@ -703,7 +709,7 @@ button {
 #custom_slider .carousel-control-prev:focus,
 #custom_slider .carousel-control-prev:hover {
     color: #fefefd;
-    background-color: #dc8977;
+    background-color: #ce2f0c;
 }
 
 
@@ -792,9 +798,9 @@ button {
 
 /* contact section start */
 
-.contact_section {
+.form {
     width: 100%;
-    float: left;
+    float: center;
 }
 
 .contact_taital {
@@ -807,7 +813,8 @@ button {
     text-transform: uppercase;
 }
 
-.contact_section_2 {
+.form .submit-to-google-sheet
+ {
     width: 100%;
     float: left;
     padding-top: 55px;
@@ -826,7 +833,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #2e2e2d;
+    color: #e41710;
     border: 0px;
     background-color: #efefef;
     padding: 11px 20px;
@@ -840,8 +847,8 @@ input.mail_text::placeholder {
 }
 
 .massage-bt {
-    color: #2e2e2d;
-    width: 100%;
+    color: #000000;
+    width: 80%;
     height: 110px;
     font-size: 18px;
     background-color: #efefef;
@@ -854,20 +861,20 @@ input.mail_text::placeholder {
 }
 
 textarea#comment.massage-bt::placeholder {
-    color: #2e2e2d;
+    color: #080808;
 }
 
-.send_bt {
+.submit {
     width: 170px;
     margin: 0 auto;
     text-align: center;
 }
 
-.send_bt a {
+.submit a {
     width: 100%;
     text-align: center;
     font-size: 16px;
-    color: #fefefd;
+    color: #0e0e0d;
     background-color: #f01c1c;
     padding: 10px;
     margin-top: 20px;
@@ -875,9 +882,10 @@ textarea#comment.massage-bt::placeholder {
     border-radius: 40px;
 }
 
-.send_bt a:hover {
-    color: #161616;
-    background-color: #efefef;
+.submit a:hover
+ {
+    color: #f30606;
+    background-color: #f0eaea;
 }
 
 .map_main {
@@ -899,6 +907,7 @@ textarea#comment.massage-bt::placeholder {
     background-color: #1d1d1d;
     background-size: 100%;
     padding: 50px 0px;
+    padding-top: 20px;
 }
 
 .address_text {
@@ -1122,3 +1131,35 @@ textarea#comment.update_mail::placeholder {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #d12121;}
+
+  .dropdown-content a:hover {background-color: pink}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn:hover, .dropdown:hover .btn  {
+  background-color: rgb(243, 239, 239);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
