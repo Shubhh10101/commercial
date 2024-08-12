@@ -440,21 +440,30 @@
                </div>
             </div>
          </div>
+         
          <form name="submit-to-google-sheet">
-         <div class="container-fluid">
-            <div class="contact_section_2">
-               <div class="row">
-                  <div class="col-md-12">
-            
-                     <div class="mail_section_1">
-                        <input type="text"  placeholder="name"  name=" name" required>
-                        <input type="text"  placeholder="email"  name=" email" required>
+            <style>
+               form 
+               {
+                  width: 280px;
+                  height: auto;
+                  padding:40px;
+                  border-radius: 10px;
+               }
+               </style>
+            <label>Name:</label>
+                                    <input type="text"  placeholder="name"  name=" name" required>
+                                    <br>
+                                    <br>
+                                    <label>Email:</label>
+                        <input type="text"  placeholder="email"  name=" email" required><br><br>
+                        
+                        <label>Phone no:</label>
                         <input type="text"  placeholder="phone"  name=" Phone" required>
+                        <label>Message:</label>
                         <textarea class="massage-bt" placeholder="message" rows="5" id="comment" name="message" required></textarea>
                         <input type="Submit" name="submit">
-                        <span id=""success"></span>
-                     </div>
-                  </div>
+                        <span id="success"></span>
                </form>
                   <div class="map_main">
                      <div class="map-responsive">
@@ -528,7 +537,7 @@
       
        
        <script>
-         const scriptURL = 'https://script.google.com/macros/s/AKfycbyYoS05D1PDKr4Pf1thIMV9SfNDWWzFnAUj7LOeAQYUXJdt8_R2Tkrar5gHlqOWTL3sfQ/exec'
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbwOSGSl8kQE4qOxiI9KQLHcvFGRaTqYRtFSnLNK7vaGespRfrZjGQptc_UaCI5dF-tzsA/exec'
          const form = document.forms['submit-to-google-sheet']
        const success = document.getElementById('success');
          form.addEventListener('Submit', e => {
