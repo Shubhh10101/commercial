@@ -701,6 +701,78 @@ textarea#comment.massage-bt::placeholder {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
+  
+  /* The navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color: #050505;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    background-color: #e61a1a;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+    background-color: #e61a1a;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #fc1010;
+    padding: 9px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(10, 10, 10);
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(241, 232, 232);
+    color: #f01c1c;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: rgb(207, 27, 27);
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
 
 
 
