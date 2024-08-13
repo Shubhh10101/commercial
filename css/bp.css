@@ -28,7 +28,7 @@ html {
 }
 
 body {
-    color: black;
+    color: rgb(253, 253, 253);
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.80857;
@@ -38,7 +38,7 @@ body {
 }
 
 a {
-    color: black;
+    color: rgb(253, 253, 253);
     text-decoration: none !important;
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
@@ -153,7 +153,7 @@ align-items: center;
 justify-content: space-between;
 padding: 20px 80px;
 background:black;
-box-shadow: 0 5px 15px rgb(235, 11, 11) ;
+box-shadow: 0 5px 15px rgb(255, 0, 0) ;
 z-index: 999;
 position: sticky-top;
 top: 0;
@@ -199,7 +199,7 @@ color: rgb(14, 13, 13);
 content:"";
 width: 30%;
 height: 2px;
-background: rgb(219, 15, 15);
+background: rgb(255, 0, 0);
 position: absolute;
 bottom: -4px;
 left: 20px;
@@ -286,7 +286,7 @@ padding: 10px 12px;
 border: 1px solid white;
 border-radius: 25px;
 cursor: pointer;
-box-shadow: 20px 20px 30px rgb(248, 2, 2);
+box-shadow: 20px 20px 30px rgb(255, 1, 1);
 margin: 15px 0;
 box-color: black;
 transition: 0.2s ease;
@@ -352,7 +352,7 @@ box-shadow: 10px 10px 14px rgb(172, 169, 169);
 border: 2px solid Black;
 border-radius: 10px;
 margin: 15px 0;
-background-color: rgb(248, 115, 27);
+background-color: rgb(255, 0, 0);
 }
 
 #feature .fe-box:nth-child(n+4)
@@ -379,7 +379,7 @@ flex-wrap: nowrap;
 
 #feature .fe-box:hover
 {
-box-shadow: 10px 10px 14px orangered;
+box-shadow: 10px 10px 14px rgb(255, 0, 0);
 }
 
 
@@ -443,7 +443,7 @@ margin-bottom: 20px;
 }
 
 .location_text li a {
-    color: orangered;
+    color: rgb(255, 0, 0);
 }
 
 .location_text li a:hover {
@@ -507,7 +507,7 @@ margin-bottom: 20px;
     align-items: center;
     display: block;
     margin-top: 20px;
-    border: 1px solid #f01c1c;
+    border: 1px solid #ff0101;
 }
 
 textarea#comment.update_mail::placeholder {
@@ -531,7 +531,7 @@ textarea#comment.update_mail::placeholder {
 .subscribe_bt a {
     width: 100%;
     float: left;
-    color: orangered;
+    color: rgb(255, 0, 0);
     font-size: 16px;
     padding: 13px 0px 14px 0px;
     background-color: black;
@@ -540,7 +540,7 @@ textarea#comment.update_mail::placeholder {
 }
 
 .subscribe_bt a:hover {
-    color: orangered;
+    color: rgb(255, 0, 0);
     background-color: white;
 }
 
@@ -559,7 +559,7 @@ textarea#comment.update_mail::placeholder {
     width: 100%;
     float: left;
     font-size: 40px;
-    color:orangered ;
+    color:rgb(255, 0, 0) ;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -584,7 +584,7 @@ textarea#comment.update_mail::placeholder {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: orangered;
+    color: rgb(255, 0, 0);
     border: 2px black;
     background-color: white;
     padding: 11px 20px;
@@ -626,7 +626,7 @@ textarea#comment.massage-bt::placeholder {
     text-align: center;
     font-size: 16px;
     color: white;
-    background-color: orangered;
+    background-color: rgb(255, 0, 0);
     padding: 10px;
     margin-top: 20px;
     display: block;
@@ -670,7 +670,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .copyright_text a:hover {
-    color: orangered;
+    color: rgb(255, 0, 0);
 }
 
 
@@ -714,7 +714,7 @@ textarea#comment.massage-bt::placeholder {
     float: left;
     font-size: 16px;
     color: white;
-    background-color: #e61a1a;
+    background-color: #ff0000;
     text-align: center;
     padding: 7px;
     text-decoration: none;
@@ -724,7 +724,7 @@ textarea#comment.massage-bt::placeholder {
   .subnav {
     float: left;
     overflow: hidden;
-    background-color: #e61a1a;
+    background-color: #ff0000;
   }
   
   /* Subnav button */
@@ -733,7 +733,7 @@ textarea#comment.massage-bt::placeholder {
     border: none;
     outline: none;
     color: white;
-    background-color: #fc1010;
+    background-color: #ff0101;
     padding: 12px;
     background-color: inherit;
     font-family: inherit;
@@ -742,7 +742,7 @@ textarea#comment.massage-bt::placeholder {
   
   /* Add a red background color to navigation links on hover */
   .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: rgb(10, 10, 10);
+    background-color: #0a0a0a;
   }
   
   /* Style the subnav content - positioned absolute */
@@ -751,7 +751,7 @@ textarea#comment.massage-bt::placeholder {
     position: absolute;
     left: 0;
     background-color: rgb(241, 232, 232);
-    color: #f01c1c;
+    color: #ff0000;
     width: 100%;
     z-index: 1;
   }
@@ -759,9 +759,10 @@ textarea#comment.massage-bt::placeholder {
   /* Style the subnav links */
   .subnav-content a {
     float: left;
-    color: rgb(207, 27, 27);
+    color: rgb(255, 4, 4);
     background-color: white;
     text-decoration: none;
+    width: 400px;
   }
   
   /* Add a grey background color on hover */

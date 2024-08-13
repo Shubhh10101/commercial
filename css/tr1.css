@@ -520,6 +520,7 @@ img {
   color: rgb(207, 27, 27);
   background-color: white;
   text-decoration: none;
+  width: 400px;
 }
 
 /* Add a grey background color on hover */

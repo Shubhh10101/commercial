@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: black;
+    color: rgb(248, 242, 242);
     text-decoration: none !important;
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
@@ -97,7 +97,7 @@ color: rgb(241, 234, 234);
 
 h4{
 font-size: 20px;
-color: rgb(247, 246, 246);
+color: rgb(248, 241, 241);
 }
 
 h3{
@@ -134,7 +134,7 @@ align-items: center;
 justify-content: space-between;
 padding: 20px 80px;
 background:black;
-box-shadow: 0 5px 15px orangered ;
+box-shadow: 0 5px 15px rgb(255, 2, 2) ;
 z-index: 999;
 position: sticky-top;
 top: 0;
@@ -180,7 +180,7 @@ color: rgb(252, 248, 248);
 content:"";
 width: 30%;
 height: 2px;
-background: orangered;
+background: rgb(255, 2, 2);
 position: absolute;
 bottom: -4px;
 left: 20px;
@@ -267,7 +267,7 @@ padding: 10px 12px;
 border: 1px solid white;
 border-radius: 25px;
 cursor: pointer;
-box-shadow: 20px 20px 30px rgb(231, 88, 6);
+box-shadow: 20px 20px 30px rgb(255, 1, 1);
 margin: 15px 0;
 box-color: black;
 transition: 0.2s ease;
@@ -297,7 +297,7 @@ font-size:12px;
 #fe-box .pro .des h4
 {
 padding-top: 7px;
-color: white;
+font-color: rgb(245, 241, 241);
 font-size: 14px;
 }
 
@@ -333,7 +333,7 @@ box-shadow: 10px 10px 14px grey;
 border: 2px solid Black;
 border-radius: 10px;
 margin: 15px 0;
-background-color: rgb(243, 139, 3);
+background-color: rgb(255, 0, 0);
 }
 
 #feature .fe-box:nth-child(n+4)
@@ -360,7 +360,7 @@ flex-wrap: nowrap;
 
 #feature .fe-box:hover
 {
-box-shadow: 10px 10px 14px orangered;
+box-shadow: 10px 10px 14px rgb(255, 0, 0);
 }
 
 
@@ -385,9 +385,9 @@ margin-bottom: 20px;
     float: left;
     font-size: 16px;
     color: white;
-    background-color: #e61a1a;
+    background-color: #ff0000;
     text-align: center;
-    padding: 9px;
+    padding: 7px;
     text-decoration: none;
   }
   
@@ -395,7 +395,7 @@ margin-bottom: 20px;
   .subnav {
     float: left;
     overflow: hidden;
-    background-color: #e61a1a;
+    background-color: #ff0000;
   }
   
   /* Subnav button */
@@ -404,8 +404,8 @@ margin-bottom: 20px;
     border: none;
     outline: none;
     color: white;
-    background-color: #fc1010;
-    padding: 9px;
+    background-color: #ff0000;
+    padding: 12px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -422,7 +422,7 @@ margin-bottom: 20px;
     position: absolute;
     left: 0;
     background-color: rgb(241, 232, 232);
-    color: #f01c1c;
+    color: #ff0000;
     width: 100%;
     z-index: 1;
   }
@@ -430,9 +430,10 @@ margin-bottom: 20px;
   /* Style the subnav links */
   .subnav-content a {
     float: left;
-    color: rgb(207, 27, 27);
+    color: rgb(255, 1, 1);
     background-color: white;
     text-decoration: none;
+    width: 400px;
   }
   
   /* Add a grey background color on hover */
