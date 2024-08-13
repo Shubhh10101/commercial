@@ -157,6 +157,7 @@ margin-right: 10px;
 #prodetails .single-pro-details input:focus
 {
 outline: none;
+background color: black;
 }
 
 #prodetails .single-pro-details h3
@@ -170,7 +171,7 @@ padding-top: 10px;
 
 
 #prodetails .table, th, td {
-  border: 1px solid orangered;
+  border: 1px solid rgb(255, 0, 0);
   color: white;
   padding-left: 10px;
   padding-top: 10px;
