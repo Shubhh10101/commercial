@@ -45,6 +45,7 @@ body
 {
 
 background-image: "C:\Users\hp\Desktop\back12.jpg";
+}
 
 #header
 
@@ -379,7 +380,7 @@ img {
   color: white;
   background-color: #e61a1a;
   text-align: center;
-  padding: 9px;
+  padding: 7px;
   text-decoration: none;
 }
 
@@ -397,7 +398,7 @@ img {
   outline: none;
   color: white;
   background-color: #fc1010;
-  padding: 9px;
+  padding: 12px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
