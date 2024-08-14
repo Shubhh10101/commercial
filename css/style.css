@@ -205,7 +205,7 @@ button {
 
 .layout_padding {
     padding-top: 24px;
-    padding-bottom: 0px;
+    padding-bottom: 19px;
 }
 
 .padding_0 {
@@ -313,7 +313,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    padding: 90px 0px 140px 0px;
+    padding: 10px 0px 140px 0px;
 }
 
 .banner_taital_main {
@@ -462,7 +462,7 @@ button {
 .about_taital_box {
     width: 100%;
     float: left;
-    padding-top: 15px;
+    padding-top: -15px;
 }
 
 .about_img {
@@ -633,6 +633,7 @@ button {
 .client_section {
     width: 100%;
     float: left;
+    
 }
 
 .client_section_2 {
@@ -643,7 +644,7 @@ button {
 .client_taital_main {
     width: 100%;
     display: flex;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .client_left {
@@ -810,10 +811,11 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #252525;
+    color: #fffdfd;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    padding: 20px;
 }
 
 .form .submit-to-google-sheet
@@ -1167,3 +1169,74 @@ textarea#comment.update_mail::placeholder {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
   }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  
+  footer{
+    background-color: #5e5b5b;
+  }
+
+  .footerContainer
+  {
+    width:100%;
+    padding: 70px 30px 20px;
+
+  }
+  .socialIcons
+  {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #c7bebe;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 1.5em;
+    color: #000000;
+    opacity:  0.9;
+}
+
+.socialIcons align-self: hover;{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.footerNav
+{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerNav ul li a{
+    color: whitesmoke;
+    margin: 20px;
+text-decoration:  none;
+font-size: 1.3em;
+opacity: 0.7;
+transition:  0.5s;
+}
+
+.footer ul li align-self: hover;{
+    opacity: 1;
+}
+
+.footer p{
+    font-size: 20px;
+}
