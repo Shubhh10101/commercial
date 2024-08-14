@@ -108,27 +108,41 @@
 
 </div>
 </section>
+  <!-- footer section start -->
+      
 
-<script>
-function addToCart(productName, productPrice) {
-    console.log(productName + ', ' + productPrice);
-    // Get the table body where cart items will be added
-    var cartTableBody = document.querySelector('.shopping-cart');
-    console.log(cartTableBody)
+  <div class="footerContainer">
+    <div class="socialIcons">
+       <a href="https://wa.me/+916204819775"><i class="fa-brands fa-whatsapp"></i></a>
+       <a href=""><i class="fa-brands fa-instagram"></i></a>
+       
+    </div>
+    <p><center>Give us a call at +91 6204819775</p>
+    <div class="footerNav">
+       <ul>
+          <li><a href="/index.html">Home</a>
+          </li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/blog.html">Process</a></li>
+       </ul>
+    </div>
+  </div>
+  
+  <!-- footer section end -->
+  <!-- copyright section start -->
+  <div class="copyright_section">
+    <div class="container">
+       <div class="row">
+          <div class="col-sm-12">
+             <p class="copyright_text">2024 All Rights Reserved.
+                </p>
+          </div>
+       </div>
+    </div>
+  </div>
+  <!-- copyright section end -->
 
-    // Create a new row for the cart item
-    var newRow = cartTableBody.insertRow();
-    console.log(newRow)
-    
-    // Create cells for product name and price
-    var productNameCell = newRow.insertCell(0);
-    var productPriceCell = newRow.insertCell(1);
-    
-    // Set the content of the cells
-    productNameCell.textContent = productName;
-    productPriceCell.textContent = '$' + productPrice.toFixed(2);
-}
-</script>
 
 
 </body>
