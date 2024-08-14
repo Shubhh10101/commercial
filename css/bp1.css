@@ -45,6 +45,7 @@ body
 {
 
 background-image: "C:\Users\hp\Desktop\back12.jpg";
+}
 
 #header
 
@@ -325,7 +326,7 @@ img {
   color: white;
   background-color: #e61a1a;
   text-align: center;
-  padding: 9px;
+  padding: 7px;
   text-decoration: none;
 }
 
@@ -343,7 +344,7 @@ img {
   outline: none;
   color: white;
   background-color: #fc1010;
-  padding: 9px;
+  padding: 11px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -500,3 +501,32 @@ transition:  0.5s;
 .footer p{
   font-size: 20px;
 }
+/* copyright section start */
+
+.copyright_section {
+  width: 100%;
+  float: left;
+  background-color: #e91414;
+  height: auto;
+}
+
+.copyright_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #fefefd;
+  text-align: center;
+  margin-left: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.copyright_text a {
+  color: #fefefd;
+}
+
+.copyright_text a:hover {
+  color: #252525;
+}
+
+
+/* copyright section end */

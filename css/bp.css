@@ -870,7 +870,8 @@ textarea#comment.massage-bt::placeholder {
     margin: 30px 0;
 }
 
-.footerNav ul{
+.footerNav ul
+{
     display: flex;
     justify-content: center;
 
@@ -893,5 +894,34 @@ transition:  0.5s;
     font-size: 20px;
 }
 
+/* copyright section start */
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #e91414;
+    height: auto;
+}
+
+.copyright_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefefd;
+    text-align: center;
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright_text a {
+    color: #fefefd;
+}
+
+.copyright_text a:hover {
+    color: #252525;
+}
+
+
+/* copyright section end */
 
 
