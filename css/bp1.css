@@ -328,6 +328,7 @@ img {
   text-align: center;
   padding: 7px;
   text-decoration: none;
+ 
 }
 
 /* The subnavigation menu */
@@ -344,10 +345,10 @@ img {
   outline: none;
   color: white;
   background-color: #fc1010;
-  padding: 11px;
+  padding: 12px;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
+  margin: 2.5;
 }
 
 /* Add a red background color to navigation links on hover */

@@ -933,6 +933,7 @@ textarea#comment.massage-bt::placeholder {
     text-align: center;
 }
 
+
 .location_text {
     width: 100%;
     margin: 0 auto;
@@ -1239,4 +1240,24 @@ transition:  0.5s;
 
 .footer p{
     font-size: 20px;
+}
+
+.footerContainer h1 
+{
+    color: red;
+}
+
+details
+{
+    background-color: white;
+    color: red;
+}
+
+.details h1
+{
+ color: red;
+}
+
+.details h3{
+    color: whitesmoke;
 }

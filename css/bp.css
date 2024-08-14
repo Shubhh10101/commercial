@@ -737,7 +737,7 @@ textarea#comment.massage-bt::placeholder {
     padding: 12px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+    margin: auto;
   }
   
   /* Add a red background color to navigation links on hover */
