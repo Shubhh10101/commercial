@@ -1261,3 +1261,9 @@ details
 .details h3{
     color: whitesmoke;
 }
+
+#he.video
+{
+padding-down: 5px;
+height: 100px;  
+}
