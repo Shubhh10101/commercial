@@ -370,6 +370,10 @@ img {
 .navbar {
   overflow: hidden;
   background-color: #050505;
+  width: 100%;
+  float: left;
+  
+  height: auto;
 }
 
 /* Navigation links */
