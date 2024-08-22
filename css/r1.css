@@ -65,7 +65,6 @@ left: 0;
 display: flex;
 align-items: center;
 justify-content: center;
-
 }
 
 #navbar li{
@@ -370,9 +369,6 @@ img {
 .navbar {
   overflow: hidden;
   background-color: #050505;
-  width: 100%;
-  float: left;
-  height: auto;
 }
 
 /* Navigation links */
@@ -391,9 +387,6 @@ img {
   float: left;
   overflow: hidden;
   background-color: #e61a1a;
-  width: 100%;
-  float: left;
-  height: auto;
 }
 
 /* Subnav button */
