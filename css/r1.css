@@ -382,8 +382,9 @@ img {
   color: white;
   background-color: #e61a1a;
   text-align: center;
-  padding: 9px;
+  padding: 7px;
   text-decoration: none;
+  width: 80px;
 }
 
 /* The subnavigation menu */
