@@ -384,7 +384,7 @@ img {
   text-align: center;
   padding: 7px;
   text-decoration: none;
-  width: 80px;
+  width: 70px;
 }
 
 /* The subnavigation menu */
@@ -408,6 +408,7 @@ img {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  width:70px;
 }
 
 /* Add a red background color to navigation links on hover */
