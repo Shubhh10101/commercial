@@ -382,9 +382,8 @@ img {
   color: white;
   background-color: #e61a1a;
   text-align: center;
-  padding: 7px;
+  padding: 9px;
   text-decoration: none;
-  width: 70px;
 }
 
 /* The subnavigation menu */
@@ -408,7 +407,6 @@ img {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-  width:130px;
 }
 
 /* Add a red background color to navigation links on hover */
